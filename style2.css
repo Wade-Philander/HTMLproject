@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid #e7e7e7;
+    
+}
+
+li{
+    border-right: 2px solid #bbb;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+
+    background-color: #4CAF50;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+  
+  ul.slides li { height:350px; }
+  ul.slides li.slide1 a { background:url("Firefox_wallpaper.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slide2 a { background:url("Firefox_wallpaper1.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slide3 a { background:url("New.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slide4 a { background:url("/videos/ident.mp4") 0 0 no-repeat; background-size:cover; height:350px; display:block; }

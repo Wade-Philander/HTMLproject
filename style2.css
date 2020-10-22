@@ -22,11 +22,11 @@ li a {
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: rgb(248, 6, 6);
   }
   .active {
 
-    background-color: #4CAF50;
+    background-color: #1505ec;
   }
 
   li:last-child {
@@ -38,3 +38,32 @@ li a {
   ul.slides li.slide2 a { background:url("Firefox_wallpaper1.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
   ul.slides li.slide3 a { background:url("New.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
   ul.slides li.slide4 a { background:url("/videos/ident.mp4") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+
+.content{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center; 
+  display: block; 
+ }
+
+.first{
+  text-align: center;
+  color: azure;
+  background-color: black;
+}
+
+.second{
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.third{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.forth{
+  text-align: center;
+  color: black;
+  background-color: white;
+}

@@ -1,69 +1,127 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border: 1px solid #e7e7e7;
-    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid #e7e7e7;
 }
 
-li{
-    border-right: 2px solid #bbb;
-    float: left;
+li {
+  border-right: 2px solid #bbb;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  li a:hover {
-    background-color: rgb(248, 6, 6);
-  }
-  .active {
+li a:hover {
+  background-color: rgb(248, 6, 6);
+}
+.active {
+  background-color: #1505ec;
+}
 
-    background-color: #1505ec;
-  }
+li:last-child {
+  border-right: none;
+}
 
-  li:last-child {
-    border-right: none;
-  }
-  
-  ul.slides li { height:350px; }
-  ul.slides li.slide1 a { background:url("Firefox_wallpaper.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
-  ul.slides li.slide2 a { background:url("Firefox_wallpaper1.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
-  ul.slides li.slide3 a { background:url("New.png") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
-  ul.slides li.slide4 a { background:url("/videos/ident.mp4") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+ul.slides li {
+  height: 350px;
+}
+ul.slides li.slide1 a {
+  background: url("Firefox_wallpaper.png") 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+  font-weight: 300px;
+  display: block;
+}
+ul.slides li.slide2 a {
+  background: url("Firefox_wallpaper1.png") 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+  display: block;
+}
+ul.slides li.slide3 a {
+  background: url("New.png") 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+  display: block;
+}
+ul.slides li.slide4 a {
+  background: url("/videos/ident.mp4") 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+  display: block;
+}
 
-.content{
-  font-family: 'Times New Roman', Times, serif;
+.content {
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-  text-align: center; 
-  display: block; 
- }
+  text-align: center;
+  display: block;
+}
 
-.first{
+.first {
   text-align: center;
   color: azure;
   background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
 }
 
-.second{
+.second {
   text-align: center;
   color: black;
   background-color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
 }
-.third{
+.third {
   text-align: center;
   color: white;
   background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
 }
-.forth{
+.forth {
   text-align: center;
   color: black;
   background-color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+}
+
+.one {
+  text-align: centervutf;
+  color: azure;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+  float: right;
+  max-width: auto;
+  max-height: auto;
+}
+
+.two {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+  max-width: auto;
+  max-height: auto;
+}
+.three {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+  word-wrap: break-word;
 }

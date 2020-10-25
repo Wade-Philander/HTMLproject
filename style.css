@@ -89,3 +89,11 @@ filter: blur(0px);
     text-align: center;
 }
 
+.fab:hover{
+    color: white;
+
+}
+
+.far:hover{
+    color: white;
+}
